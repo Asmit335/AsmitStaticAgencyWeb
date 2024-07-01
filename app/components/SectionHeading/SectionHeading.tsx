@@ -28,7 +28,13 @@ export default function SectionHeading({ headingMini, headingPrimary }: Props) {
               key={index}
               className="hover:scale-105 transition-transform duration-300"
             >
-              <FeaturedCard title={card.title} image={card.image} />
+              <div
+                data-aos="zoom-in"
+                data-aos-delay="500"
+                data-aos-anchor-placement="top-center"
+              >
+                <FeaturedCard title={card.title} image={card.image} />
+              </div>
             </div>
           ))}
         </div>

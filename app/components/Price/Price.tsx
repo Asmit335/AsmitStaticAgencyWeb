@@ -9,17 +9,32 @@ export default function Price() {
   return (
     <>
       <div className="text-center p-4 md:p-8">
-        <p className="text-blue-900 text-sm md:text-lg">
+        <p
+          className="text-blue-900 text-sm md:text-lg"
+          data-aos="fade-down"
+          data-aos-delay="200"
+          data-aos-anchor-placement="top-center"
+        >
           Deal for your Business
         </p>
-        <p className="text-blue-900 text-xl md:text-4xl mt-2 font-bold">
+        <p
+          className="text-blue-900 text-xl md:text-4xl mt-2 font-bold"
+          data-aos="fade-down"
+          data-aos-delay="300"
+          data-aos-anchor-placement="top-center"
+        >
           Meet our Pricing plan that suit you!
         </p>
       </div>
       <div className=" w-[80%] mx-auto grid pt-[6rem] gap-[2rem] lg:gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center">
         {PriceCardData.map((card, index) => {
           return (
-            <div key={index}>
+            <div
+              key={index}
+              data-aos="flip-right"
+              data-aos-delay="400"
+              data-aos-anchor-placement="top-center"
+            >
               <PriceCard
                 bg={card.bg}
                 price={card.price}

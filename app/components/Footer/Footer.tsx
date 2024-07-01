@@ -40,7 +40,13 @@ export default function Footer() {
     <div className="pt-12 pb-6 bg-gray-200">
       <div className="w-[80%] grid mx-auto border-b-[1.5px] pb-8 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {footerSections.map((section, index) => (
-          <div key={index} className="md:mx-auto mx-0">
+          <div
+            key={index}
+            className="md:mx-auto mx-0"
+            data-aos="fade-down"
+            data-aos-delay="400"
+            data-aos-anchor-placement="top-center"
+          >
             <h1 className="text-[1rem] text-gray-900 font-semibold mb-6">
               {section.title}
             </h1>

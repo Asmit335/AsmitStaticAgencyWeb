@@ -55,7 +55,8 @@ export default function Footer() {
           </div>
         ))}
         <div className="opacity-80">
-          Copyright &copy;2024 All right reserved! Asmit Khanal
+          Copyright &copy;{new Date().getFullYear()} All right reserved! Asmit
+          Khanal
         </div>
       </div>
     </div>

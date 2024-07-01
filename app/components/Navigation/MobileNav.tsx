@@ -2,7 +2,7 @@ import { XMarkIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
 
 interface Props {
-  nav: () => boolean;
+  nav: boolean;
   closeNav: () => void;
 }
 export default function MobileNav({ nav, closeNav }: Props) {

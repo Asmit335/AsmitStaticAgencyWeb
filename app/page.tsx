@@ -1,7 +1,10 @@
-import React from "react";
-
+import Home from "./components/Home";
 const HomePage = () => {
-  return <div className="text-9xl text-red-900">HomePage</div>;
+  return (
+    <div className=" container mx-auto text-3xl text-blue-900 p-5 m-5 text-center border-b">
+      <Home />
+    </div>
+  );
 };
 
 export default HomePage;

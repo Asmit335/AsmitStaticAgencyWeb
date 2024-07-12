@@ -23,7 +23,7 @@ export default function Help() {
             data-aos="fade-right"
             data-aos-delay="400"
           >
-            Do you need Help? Our support team ready to help !
+            Do you need Help? Our support team&apos;s ready to help!
           </h1>
           <p
             className="mb-6 text-gray-800 md:text-lg sm:text-base"
@@ -32,9 +32,9 @@ export default function Help() {
             data-aos-anchor-placement="top-center"
           >
             Our dedicated support team works around the clock to ensure your
-            business stays operational. Whether it's resolving technical issues
-            or offering strategic advice, we are here to provide the support you
-            need, when you need it.
+            business stays operational. Whether it&apos;s resolving technical
+            issues or offering strategic advice, we are here to provide the
+            support you need, when you need it.
           </p>
           <p
             className="mb-6 text-gray-800 md:text-lg sm:text-base"
